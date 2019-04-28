@@ -1,0 +1,10 @@
+{
+  "description": "A wallpaper engine background",
+  "file": "index.html",
+  "general": {
+    "supportsaudioprocessing": true
+  },
+  "title": "Background",
+  "type": "web",
+  "official": false
+}
