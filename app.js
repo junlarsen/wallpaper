@@ -20,15 +20,15 @@ let peaks = {
 };
 
 let spectrum = [
-    {stopPercent: 1 / 5, color: '#41c4f4'},
-    {stopPercent: 2 / 5, color: '#329adb'},
-    {stopPercent: 3 / 5, color: '#3280db'},
-    {stopPercent: 4 / 5, color: '#3259db'},
-    {stopPercent: 1, color: '#0001ff'},
+    {stopPercent: 1 / 5, color: '#4286f4'},
+    {stopPercent: 2 / 5, color: '#41f450'},
+    {stopPercent: 3 / 5, color: '#eef441'},
+    {stopPercent: 4 / 5, color: '#ea8a1c'},
+    {stopPercent: 1, color: '#ea1c1c'},
 ];
 
 let bar = {
-    height: 500,
+    height: 600,
     spacing: 6,
     color: chroma('blue')
 };
@@ -61,10 +61,12 @@ let stop = () => {
 let onTick = () => {
     let context = canvas.getContext('2d');
     context.clearRect(0, 0, canvas.width, canvas.height);
-    if (rainbow)
+    if (rainbow) {
         context.fillStyle = color(canvas, context);
-    else
+    } else {
         context.fillStyle = bar.color.hex();
+    }
+    
     let width = Math.round(1 / 64 * canvas.width);
     for (let i = 0; i < 64; i++) {
         if (stream[i]) {
