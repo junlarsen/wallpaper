@@ -17,17 +17,20 @@
             z-index: 2;
         }
 
-        #video {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
+        .wrapper {
+            min-height: 100vh;
+            min-width: 100vw;
+            position: relative;
+            background-image: url('./assets/moe.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
 
 <body>
+<div class="wrapper">
+</div>
 <canvas class="render"></canvas>
 
 <script src="./dist/bundle.js"></script>

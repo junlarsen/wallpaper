@@ -20,15 +20,13 @@ let peaks = {
 };
 
 let spectrum = [
-    {stopPercent: 1 / 5, color: '#4286f4'},
-    {stopPercent: 2 / 5, color: '#41f450'},
-    {stopPercent: 3 / 5, color: '#eef441'},
-    {stopPercent: 4 / 5, color: '#ea8a1c'},
-    {stopPercent: 1, color: '#ea1c1c'},
+    {stopPercent: 1 / 3, color: '#2196f3'},
+    {stopPercent: 2 / 3, color: '#1976d2'},
+    {stopPercent: 3 / 3, color: '#0d47a1'},
 ];
 
 let bar = {
-    height: 600,
+    height: 400,
     spacing: 6,
     color: chroma('blue')
 };
