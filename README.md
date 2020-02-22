@@ -1,10 +1,8 @@
 # Wallpaper
 
-This is the wallpaper I use for Wallpaper Engine.
+This is the wallpaper with live audio visualizers I use for Wallpaper Engine.
 
-![](assets/showcase.png)
-
-It also has live audio visualizers
+![Background](assets/showcase.png)
 
 ## Requirements
 
