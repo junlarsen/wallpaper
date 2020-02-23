@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+.clock {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 162px;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #2b2b2b;
+}
+
+.render {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  background-image: url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

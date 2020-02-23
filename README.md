@@ -2,7 +2,7 @@
 
 This is the wallpaper with live audio visualizers I use for Wallpaper Engine.
 
-![Background](assets/showcase.png)
+![Background](assets/showcase.jpg)
 
 ## Requirements
 
@@ -16,7 +16,7 @@ This is the wallpaper with live audio visualizers I use for Wallpaper Engine.
 - Run `npm install`
 - Run `npx webpack`
 - Open Wallpaper Engine
-- Set the background to the index.html file
+- Open the newly generated `dist/project.json` file as your wallpaper
 
 ## License
 

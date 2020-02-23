@@ -1,10 +1,18 @@
+const copy = require('copy-webpack-plugin')
+
 module.exports = {
-  entry: './app.ts',
+  entry: './src/index.ts',
 
   output: {
-    filename: "bundle.js",
+    filename: 'bundle.js',
     path: __dirname + '/dist/'
   },
+  plugins: [
+    new copy([
+      { from: 'src', to: '.', ignore: ['*.ts'] },
+      { from: 'assets', to: 'assets' }
+    ])
+  ],
   module: {
     rules: [
       {
@@ -21,4 +29,4 @@ module.exports = {
   stats: {
     warnings: false
   }
-};
+}
