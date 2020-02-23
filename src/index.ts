@@ -28,7 +28,7 @@ const onTimerTick = () => {
   const date = new Date()
   const tag = date.getHours() > 12 ? "PM" : "AM"
 
-  clock.innerText = `${date.getHours()}:${date.getMinutes()} ${tag}`
+  clock.innerText = `${date.getHours().toString().padEnd(2, '0')}:${date.getMinutes().toString().padEnd(2, '0')} ${tag}`
 }
 
 const onTick = () => {
