@@ -27,8 +27,11 @@ const bar = {
 const onTimerTick = () => {
   const date = new Date()
   const tag = date.getHours() > 12 ? "PM" : "AM"
+  
+  const hour = (date.getHours() > 12 ? date.getHours() - 12 : date.getHours).toString()
+  const minute = date.getMinutes().toString()
 
-  clock.innerText = `${date.getHours().toString().padEnd(2, '0')}:${date.getMinutes().toString().padEnd(2, '0')} ${tag}`
+  clock.innerText = `${hour.padStart(2, '0')}:${minute.padStart(2, '0')} ${tag}`
 }
 
 const onTick = () => {
