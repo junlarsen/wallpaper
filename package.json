@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/supergrecko/wallpaper#readme",
   "dependencies": {
-    "gsap": "^2.1.2",
+    "gsap": "^3.6.0",
     "ts-loader": "^6.0.2",
     "typescript": "^3.5.1",
     "webpack": "^4.30.0",
