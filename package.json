@@ -18,12 +18,12 @@
   "homepage": "https://github.com/supergrecko/wallpaper#readme",
   "dependencies": {
     "gsap": "^2.1.2",
-    "ts-loader": "^6.0.2",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.5.1",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
-    "copy-webpack-plugin": "^5.1.1"
+    "copy-webpack-plugin": "^11.0.0"
   }
 }
